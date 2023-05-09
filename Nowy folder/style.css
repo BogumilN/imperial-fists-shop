@@ -1,3 +1,7 @@
+:root {
+ --main-theme:rgb(228, 228, 14);   
+    
+}
 * {
 padding: 0;
 margin: 0;
