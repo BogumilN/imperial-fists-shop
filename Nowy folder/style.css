@@ -5,7 +5,6 @@
 * {
 padding: 0;
 margin: 0;
-font-family: sans-serif;
 box-sizing: border-box;
 }
 body {
@@ -25,7 +24,7 @@ max-width: 1200px;
     display: flex;
     height: 180px;
     color:black;
-    padding: 20px;
+    padding: 10px;
 border: 1px solid black;
 background-color: rgb(228, 228, 14);
 justify-content: space-between;
@@ -37,17 +36,66 @@ font-size: 2.4rem;
 }
 .title-first {
 font-family: 'Frijole';
-    margin-right: 10px;
+    margin-right: 5px;
 }
 .title-second {
     color: white;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .search-bar {
-    border: 1px solid black;
+    display: flex;
+    align-items: center;
+cursor: pointer;
+}
+input {
+    font-size: 1.7rem;
+    width: 300px;
+    height: 40px;
+}
+.search-bar img {
+    /* border: 1px solid black; */
+    background-color: yellow;
+    padding: 2px;
+    border-radius: 0 5px 5px 0;
+}
+.search-bar img:hover, :focus {
+opacity:80%;
 }
 .icon-fist {
-    width: 15%;
-    
+    width: 15%;  
+}
+.basket img {
+    /* border: 1px solid black; */
+    vertical-align: bottom;
+}
+.amount {
+    font-size: 1.3rem;
+}
+.cross {
+font-size: 1.3rem;
+    cursor: pointer;
+    opacity: 80%;
+}
+.category {
+    font-size: 1.5rem;
+    font-family: serif;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+.category > * {
+}
+.sub-category {
+    padding: 15px;
+text-align: center;
+}
+.options {
+    margin: 0 auto;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+}
+.list-of-product {
+border: 1px solid black;
+
 }
